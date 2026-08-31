@@ -18,7 +18,8 @@
     <a class="brand" href="#top">Britt Siminitz</a>
     <nav class="site-nav">
       <a href="#about">About</a>
-      <a href="#publications">Publications</a>
+      <a href="#publications">Selected Work</a>
+      <a href="#archive">Archive</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -36,6 +37,7 @@
         <h1>Brittany Siminitz</h1>
         <p class="hero-role">JCK Contributing Editor</p>
         <p class="hero-summary" id="bio-summary"></p>
+        <dl class="hero-stats" id="hero-stats"></dl>
         <div class="hero-links" id="bio-links"></div>
       </div>
     </div>
@@ -51,14 +53,34 @@
 
   <section id="publications" class="publications">
     <div class="wrap">
-      <h2>Publications</h2>
-      <p class="section-intro">A selection of Britt's published work, pulled directly from each outlet.</p>
+      <h2>Selected Work</h2>
+      <p class="section-intro">Highlights across outlets, each pulled directly from the source.</p>
 
       <div class="filters" id="filters" role="tablist" aria-label="Filter publications by outlet">
         <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
       </div>
 
       <div id="outlet-sections"></div>
+    </div>
+  </section>
+
+  <section id="archive" class="archive">
+    <div class="wrap">
+      <h2>Complete JCK Archive</h2>
+      <p class="section-intro" id="archive-intro">Every piece published under her byline at JCK.</p>
+
+      <div class="archive-controls">
+        <input type="search" id="archive-search" class="archive-input"
+               placeholder="Search titles…" aria-label="Search article titles">
+        <select id="archive-category" class="archive-input" aria-label="Filter by category"></select>
+        <select id="archive-year" class="archive-input" aria-label="Filter by year"></select>
+      </div>
+
+      <p class="archive-count" id="archive-count" role="status" aria-live="polite"></p>
+      <ol class="archive-list" id="archive-list"></ol>
+      <div class="archive-more-wrap">
+        <button id="archive-more" class="archive-more">Show more</button>
+      </div>
     </div>
   </section>
 
