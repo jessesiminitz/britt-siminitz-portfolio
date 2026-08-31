@@ -32,6 +32,37 @@ body {
   padding: 0 24px;
 }
 
+/* Decorative side trim: a tennis-bracelet motif — faceted gems strung on a
+   hairline — running down both margins. Purely ornamental (aria-hidden),
+   and only shown once the viewport is wide enough to clear the content. */
+.page-trim {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 44px;
+  z-index: 30;
+  pointer-events: none;
+  background-repeat: repeat-y;
+  background-position: center top;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='96' viewBox='0 0 44 96'%3E%3Cg stroke='%23a9812f' fill='none' stroke-width='1' stroke-linejoin='round'%3E%3Cpath d='M22 0 V30 M22 66 V96'/%3E%3Cpath d='M22 30 L34 48 L22 66 L10 48 Z'/%3E%3Cpath d='M10 48 H34 M22 30 V66'/%3E%3Cpath d='M14 42 H30 M14 54 H30'/%3E%3C/g%3E%3Ccircle cx='22' cy='8' r='2' fill='%23a9812f'/%3E%3Ccircle cx='22' cy='88' r='2' fill='%23a9812f'/%3E%3C/svg%3E");
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 90px, #000 calc(100% - 90px), transparent 100%);
+          mask-image: linear-gradient(to bottom, transparent 0, #000 90px, #000 calc(100% - 90px), transparent 100%);
+}
+
+.page-trim-left { left: 26px; }
+.page-trim-right { right: 26px; }
+
+/* 980px content + 44px trim + breathing room on each side. */
+@media (min-width: 1180px) {
+  .page-trim { display: block; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page-trim { transition: opacity 0.3s ease; }
+}
+
 h1, h2, h3 {
   font-family: var(--serif);
   font-weight: 600;
@@ -289,10 +320,15 @@ a:hover { text-decoration-color: var(--emerald); }
 
 .archive-more:hover { background: var(--emerald); color: #fff; }
 
-/* About */
-.about { padding: 56px 0; border-bottom: 1px solid var(--line); }
-.about p { max-width: 68ch; color: var(--ink-soft); }
-.about .credentials { font-size: 0.9rem; font-style: italic; color: var(--ink-soft); }
+.hero-credentials {
+  font-size: 0.84rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 16px 0 0;
+  max-width: 54ch;
+}
+
+.hero-credentials:empty { display: none; }
 
 /* Publications */
 .publications { padding: 56px 0 64px; }

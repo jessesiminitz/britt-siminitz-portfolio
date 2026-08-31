@@ -20,7 +20,6 @@ async function init() {
 
 function renderBio(bio, archive) {
   document.getElementById('bio-summary').textContent = bio.summary;
-  document.getElementById('about-text').textContent = bio.summary;
 
   if (archive && archive.length) {
     const years = archive.map(a => a.date).filter(Boolean).sort();
@@ -46,7 +45,7 @@ function renderBio(bio, archive) {
     `<a href="${l.url}" target="_blank" rel="noopener">${escapeHtml(l.label)}</a>`
   ).join('');
 
-  const credEl = document.getElementById('about-credentials');
+  const credEl = document.getElementById('bio-credentials');
   if (bio.credentials && bio.credentials.length) {
     credEl.textContent = 'Also: ' + bio.credentials.join(' · ');
   }
