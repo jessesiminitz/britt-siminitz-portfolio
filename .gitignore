@@ -2,3 +2,11 @@
 *.log
 __pycache__/
 *.pyc
+
+# Local build env
+.venv/
+
+# Generated resume: keep the generator, not the output — once real contact
+# details are filled in, these must not land in a public repo.
+resume/*.docx
+resume/*.pdf
