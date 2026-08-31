@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brittany Siminitz — Jewelry &amp; Luxury Trade Writer</title>
+<meta name="description" content="Portfolio of Brittany (Britt) Siminitz, a jewelry and luxury trade journalist writing for JCK, Gem + Jewel, and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">Britt Siminitz</a>
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="top" class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-photo">
+        <img src="assets/images/headshot.jpg" alt="Portrait of Brittany Siminitz" width="300" height="300">
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Jewelry &amp; Luxury Trade Journalist</p>
+        <h1>Brittany Siminitz</h1>
+        <p class="hero-role">JCK Contributing Editor</p>
+        <p class="hero-summary" id="bio-summary"></p>
+        <div class="hero-links" id="bio-links"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <p id="about-text"></p>
+      <p class="credentials" id="about-credentials"></p>
+    </div>
+  </section>
+
+  <section id="publications" class="publications">
+    <div class="wrap">
+      <h2>Publications</h2>
+      <p class="section-intro">A selection of Britt's published work, pulled directly from each outlet.</p>
+
+      <div class="filters" id="filters" role="tablist" aria-label="Filter publications by outlet">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+      </div>
+
+      <div id="outlet-sections"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Get in touch</h2>
+      <p>For assignments, pitches, or press inquiries, reach out via LinkedIn or her JCK author page below.</p>
+      <div class="hero-links" id="contact-links"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> Brittany Siminitz. Built as a personal portfolio site.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

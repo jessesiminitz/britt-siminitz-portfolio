@@ -1,0 +1,242 @@
+{
+  "bio": {
+    "name": "Brittany Siminitz",
+    "shortName": "Britt Siminitz",
+    "title": "JCK Contributing Editor",
+    "tagline": "Jewelry &amp; luxury trade journalist",
+    "summary": "Brittany — Britt to most of the jewelry industry — has covered fine jewelry, gemstones, and the business of the trade for nearly a decade. She's a Contributing Editor at JCK, the industry's leading publication, where she writes the On Your Market, Social Setting, and Supplier News blogs and the long-running Britt's Pick column. Her byline also appears in Gem + Jewel, the Substack and print magazine from Jewelers Mutual Group; in Rio Grande's Knowledge Hub; and in editorial features for fine jewelry brands.",
+    "photo": "assets/images/headshot.jpg",
+    "photoCredit": "Photo courtesy of JCK",
+    "links": [
+      { "label": "JCK Author Page", "url": "https://www.jckonline.com/writer/brittany-siminitz/" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/brittany-siminitz-b48aba70/" },
+      { "label": "X / Twitter", "url": "https://x.com/brittspickjck" }
+    ],
+    "credentials": [
+      "Registered author, Rubel & Ménasché (diamond trade press)"
+    ]
+  },
+  "outlets": [
+    {
+      "id": "jck",
+      "name": "JCK",
+      "url": "https://www.jckonline.com/writer/brittany-siminitz/",
+      "description": "The jewelry industry's leading trade publication. Britt is a Contributing Editor and writes the On Your Market, Social Setting, and Supplier News blogs, plus the long-running Britt's Pick column.",
+      "articles": [
+        {
+          "title": "Pinterest's Hobbies Report Contains Key Clues for Jewelers",
+          "url": "https://www.jckonline.com/editorial-article/pinterest-hobbies-report-26/",
+          "date": "2026-08-28",
+          "excerpt": "Pinterest's new Hobbies Trend Report doesn't mention jewelry once. Here's why jewelry retailers should pay attention to it anyway."
+        },
+        {
+          "title": "Talismania Is Betting Big on Montana Sapphires",
+          "url": "https://www.jckonline.com/editorial-article/talismania-montana-sapphires/",
+          "date": "2026-08-27",
+          "excerpt": "The Montana-based fine jewelry brand Talismania specializes in Montana sapphire with other colored stones in its modern, talisman-inspired designs."
+        },
+        {
+          "title": "Britt's Pick: Aquamarine Necklace by Jake Matluck",
+          "url": "https://www.jckonline.com/editorial-article/britts-pick-matluck-aquamarine/",
+          "date": "2026-08-24",
+          "excerpt": "“Aquamarine has long been thought of as a semiprecious, less desirable stone,” Matluck says. “But stones with this level of saturation are far rarer.”"
+        },
+        {
+          "title": "All Hands on Deck",
+          "url": "https://www.jckonline.com/editorial-article/all-hands-jewelry/",
+          "date": "2026-08-19",
+          "excerpt": "The hand is emerging as a particularly resonant symbol in jewelry at a moment when consumers are drawn to pieces with meaning."
+        },
+        {
+          "title": "Britt's Pick: Jade Ruzzo's Silver Vic Ring",
+          "url": "https://www.jckonline.com/editorial-article/britts-pick-jade-ruzzo-silver-vic/",
+          "date": "2026-08-17",
+          "excerpt": "I think the first Jade Ruzzo ring I ever wrote about, back in 2023, was one of her iconic Vic rings. Named for her late father…"
+        },
+        {
+          "title": "TikTok Is Turning Discovery Into a Shopping Strategy",
+          "url": "https://www.jckonline.com/editorial-article/tiktok-discovery-shopping/",
+          "date": "2026-08-14",
+          "excerpt": "TikTok wants to turn the scroll into a sale—and its latest tools could give jewelry brands more ways to get in front of shoppers."
+        },
+        {
+          "title": "Britt's Vegas Picks: My Favorite Things From the 2025 Shows",
+          "url": "https://www.jckonline.com/editorial-article/britts-vegas-picks-2025/",
+          "date": "2025-06-10",
+          "excerpt": "Today's Britt's Pick is somewhat unique and calls for a different kind of introduction—straight from the floor of Jewelry Week in Las Vegas."
+        },
+        {
+          "title": "The Jewelry Trends That Defined 2025",
+          "url": "https://www.jckonline.com/editorial-article/jewelry-trends-2025/",
+          "date": "2025-12-17",
+          "excerpt": "It would be misleading to say that any one jewelry trend could define a single year; our industry moves slowly, gracefully, allowing time to absorb new styles."
+        },
+        {
+          "title": "Jade Jewels Could Be Your Best Sellers This Spring",
+          "url": "https://www.jckonline.com/editorial-article/jade-jewels-spring/",
+          "date": "2025-03-05",
+          "excerpt": "When I wrote about the prevalence of opaque gemstones in jewelry design back in January, I made a mental note of jade in particular."
+        },
+        {
+          "title": "My Favorite Things 2024: The Year in Britt's Picks",
+          "url": "https://www.jckonline.com/editorial-article/2024-in-britts-pick/",
+          "date": "2024-12-24",
+          "excerpt": "It's been another wonderful year in jewelry design (in my case, jewelry coveting), and I've got the list here to prove it."
+        },
+        {
+          "title": "My Favorite Things: 2023 in Britt's Picks",
+          "url": "https://www.jckonline.com/editorial-article/2023-in-britts-pick/",
+          "date": "2023-12-21",
+          "excerpt": "It's a cliché that I write in one form or another every time I put together this year-in-review roundup: Didn't I just do this?"
+        },
+        {
+          "title": "A Year in Britt's Pick: 2021 in Review",
+          "url": "https://www.jckonline.com/editorial-article/britts-pick-2021-review/",
+          "date": "2021-12-28",
+          "excerpt": "Well, that's the end of 2021. What's to say about this year, aside from the fact that it happened, I guess?"
+        }
+      ]
+    },
+    {
+      "id": "gemandjewel",
+      "name": "Gem + Jewel",
+      "url": "https://gemandjewel.substack.com/",
+      "description": "A Substack and biannual print magazine from Jewelers Mutual Group covering fine jewelry, gemstones, and luxury watches. Britt is a regular contributing writer.",
+      "articles": [
+        {
+          "title": "Jewelry That Leaves a Lasting Impression",
+          "url": "https://gemandjewel.substack.com/p/jewelry-that-leaves-a-lasting-impression",
+          "date": "2026-05-29",
+          "excerpt": "Melbourne-based designer Kirsty Lief transforms fingerprints, handprints, and personal stories into wearable keepsakes."
+        },
+        {
+          "title": "Just Dropped: Claudia Mae's Chic 'Nouveau Romantics' Engagement Ring Collection",
+          "url": "https://gemandjewel.substack.com/p/dropped-claudia-maes-chic-nouveau",
+          "date": "2026-04-28",
+          "excerpt": "Vintage-inspired details and room for big rocks."
+        },
+        {
+          "title": "Easy Summer Outfit Upgrade: A Bold Silver Necklace",
+          "url": "https://gemandjewel.substack.com/p/easy-summer-outfit-upgrade-a-bold",
+          "date": "2026-04-22",
+          "excerpt": "A classic “It” girl look if there ever was one."
+        },
+        {
+          "title": "Striking New Cords: Easy-Feeling Alts to the Gold Chain",
+          "url": "https://gemandjewel.substack.com/p/striking-new-cords-easy-feeling-alts",
+          "date": "2026-04-16",
+          "excerpt": "Silk and leather give gemstone pendants a dose of summertime ease."
+        },
+        {
+          "title": "Diamond Stud Earrings Get an Upgrade",
+          "url": "https://gemandjewel.substack.com/p/diamond-stud-earrings-get-an-upgrade",
+          "date": "2026-03-26",
+          "excerpt": "One of jewelry's most enduring styles had become a bit bo-ring — no longer."
+        },
+        {
+          "title": "Jewelry that Captures Margot Robbie's Wuthering Heights Aesthetic",
+          "url": "https://gemandjewel.substack.com/p/jewelry-that-captures-margot-robbies",
+          "date": "2026-02-18",
+          "excerpt": "Styles that go perfectly with wilting roses and lovelorn expressions."
+        },
+        {
+          "title": "The Long Pendant Necklace is Back",
+          "url": "https://gemandjewel.substack.com/p/the-long-pendant-necklace-is-back",
+          "date": "2026-02-27",
+          "excerpt": "But the swinging style is more sleek than before."
+        },
+        {
+          "title": "Purple Reign!",
+          "url": "https://gemandjewel.substack.com/p/purple-reign",
+          "date": "2026-02-12",
+          "excerpt": "Vintage amethyst jewels are the most distinctive way to wear February's bold birthstone."
+        },
+        {
+          "title": "The Ageless Allure of Vintage Diamonds",
+          "url": "https://gemandjewel.substack.com/p/the-ageless-allure-of-vintage-diamonds",
+          "date": "2026-01-15",
+          "excerpt": "Many old diamonds were cut to shine in candlelight — what could be more romantic?"
+        }
+      ]
+    },
+    {
+      "id": "riogrande",
+      "name": "Rio Grande",
+      "url": "https://www.riogrande.com/knowledge-hub/",
+      "description": "The jewelry industry's largest wholesale supplier (a Berkshire Hathaway company). Britt writes trend and market features for its Knowledge Hub.",
+      "articles": [
+        {
+          "title": "Wedding Band Trends 2026: Personalization Takes Center Stage",
+          "url": "https://www.riogrande.com/knowledge-hub/articles/wedding-band-trends-2026-personalization-takes-center-stage/",
+          "date": "2026-06-22",
+          "excerpt": "Colored gemstones, artisan finishes, mixed metals, and meaningful details are shaping demand in bridal jewelry."
+        },
+        {
+          "title": "The 2026 Rio Grande Color of the Year is…",
+          "url": "https://www.riogrande.com/knowledge-hub/articles/the-2026-rio-grande-color-of-the-year-is/",
+          "date": "2025-12-31",
+          "excerpt": "Warm, refined, and quietly luminous, Champagne has emerged as Rio Grande's 2026 Color of the Year — a hue that feels both timeless and distinctly of the moment."
+        }
+      ]
+    },
+    {
+      "id": "jennylauren",
+      "name": "Jenny Lauren Jewelry",
+      "url": "https://jennylaurenjewelry.com/blogs/news",
+      "description": "Editorial styling features written for the fine jewelry brand's journal.",
+      "articles": [
+        {
+          "title": "9 Vacation-Worthy Jewels to Wear All Summer Long",
+          "url": "https://jennylaurenjewelry.com/blogs/news/9-vacation-worthy-jewels-to-wear-all-summer-long",
+          "date": null,
+          "excerpt": "Does it seem like everyone you know is on vacation right now? My Instagram feed is filled with images of sun-soaked beaches, dreamy sunset cocktails, and those relaxed smiles that only time on holiday can bring."
+        }
+      ]
+    },
+    {
+      "id": "jckinsider",
+      "name": "JCK Insider",
+      "url": "https://jckinsider.com/author/bsiminitz/",
+      "description": "JCK's companion site for the JCK Las Vegas trade show, covering trends, designers, and event previews for the industry.",
+      "note": "This outlet's site blocks automated access, so individual article dates/excerpts couldn't be independently verified the same way as the outlets above — titles and URLs below are drawn from her confirmed author archive.",
+      "articles": [
+        {
+          "title": "6 Jewelry Trends to Watch for at JCK Las Vegas",
+          "url": "https://jckinsider.com/jck-events/6-jewelry-trends-to-watch-for-at-jck-las-vegas/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "Life of LUXURY: A Preview of LUXURY at JCK",
+          "url": "https://jckinsider.com/jck-events/life-of-luxury/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "New and Noteworthy: JCK Las Vegas 2018",
+          "url": "https://jckinsider.com/jck-insider/new-noteworthy-jck-lv-2018/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "International Retail Delegation: Helena Cattaneo, Jóia & Cia, Brazil",
+          "url": "https://jckinsider.com/jck-insider/helena-cattaneo-joia-cia/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "JCK Talks: Ben Smithee, CEO, The Smithee Group",
+          "url": "https://jckinsider.com/jck-las-vegas/jck-talks-ben-smithee/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "Know the Stone: Moonstone and Opal",
+          "url": "https://jckinsider.com/trend-files/know-the-stone-moonstone-opal/",
+          "date": null,
+          "excerpt": null
+        }
+      ]
+    }
+  ]
+}
