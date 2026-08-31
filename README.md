@@ -92,7 +92,8 @@ straight from JCK's own author-archive endpoint, so it is authoritative
 by construction.
 JCK Insider titles/URLs come from her confirmed author archive, but that
 site blocks automated fetches, so those specific dates/excerpts couldn't be
-independently re-verified the same way (flagged in the JSON via `"note"`).
+independently re-verified the same way — which is why those entries carry
+`null` dates and excerpts rather than guessed ones.
 
 The Jenny Lauren Jewelry piece has no publish date displayed on the page,
 so its `date` is `null` rather than a guess.

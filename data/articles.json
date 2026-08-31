@@ -8,12 +8,18 @@
     "photo": "assets/images/headshot.jpg",
     "photoCredit": "Photo courtesy of JCK",
     "links": [
-      { "label": "JCK Author Page", "url": "https://www.jckonline.com/writer/brittany-siminitz/" },
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/brittany-siminitz-b48aba70/" },
-      { "label": "X / Twitter", "url": "https://x.com/brittspickjck" }
-    ],
-    "credentials": [
-      "Registered author, Rubel & Ménasché (diamond trade press)"
+      {
+        "label": "JCK Author Page",
+        "url": "https://www.jckonline.com/writer/brittany-siminitz/"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/brittany-siminitz-b48aba70/"
+      },
+      {
+        "label": "X / Twitter",
+        "url": "https://x.com/brittspickjck"
+      }
     ]
   },
   "outlets": [
@@ -94,6 +100,50 @@
           "url": "https://www.jckonline.com/editorial-article/britts-pick-2021-review/",
           "date": "2021-12-28",
           "excerpt": "Well, that's the end of 2021. What's to say about this year, aside from the fact that it happened, I guess?"
+        }
+      ]
+    },
+    {
+      "id": "jckinsider",
+      "name": "JCK Insider",
+      "url": "https://jckinsider.com/author/bsiminitz/",
+      "description": "JCK's companion site for the JCK Las Vegas trade show, covering trends, designers, and event previews for the industry.",
+      "articles": [
+        {
+          "title": "6 Jewelry Trends to Watch for at JCK Las Vegas",
+          "url": "https://jckinsider.com/jck-events/6-jewelry-trends-to-watch-for-at-jck-las-vegas/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "Life of LUXURY: A Preview of LUXURY at JCK",
+          "url": "https://jckinsider.com/jck-events/life-of-luxury/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "New and Noteworthy: JCK Las Vegas 2018",
+          "url": "https://jckinsider.com/jck-insider/new-noteworthy-jck-lv-2018/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "International Retail Delegation: Helena Cattaneo, Jóia & Cia, Brazil",
+          "url": "https://jckinsider.com/jck-insider/helena-cattaneo-joia-cia/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "JCK Talks: Ben Smithee, CEO, The Smithee Group",
+          "url": "https://jckinsider.com/jck-las-vegas/jck-talks-ben-smithee/",
+          "date": null,
+          "excerpt": null
+        },
+        {
+          "title": "Know the Stone: Moonstone and Opal",
+          "url": "https://jckinsider.com/trend-files/know-the-stone-moonstone-opal/",
+          "date": null,
+          "excerpt": null
         }
       ]
     },
@@ -190,51 +240,6 @@
           "url": "https://jennylaurenjewelry.com/blogs/news/9-vacation-worthy-jewels-to-wear-all-summer-long",
           "date": null,
           "excerpt": "Does it seem like everyone you know is on vacation right now? My Instagram feed is filled with images of sun-soaked beaches, dreamy sunset cocktails, and those relaxed smiles that only time on holiday can bring."
-        }
-      ]
-    },
-    {
-      "id": "jckinsider",
-      "name": "JCK Insider",
-      "url": "https://jckinsider.com/author/bsiminitz/",
-      "description": "JCK's companion site for the JCK Las Vegas trade show, covering trends, designers, and event previews for the industry.",
-      "note": "This outlet's site blocks automated access, so individual article dates/excerpts couldn't be independently verified the same way as the outlets above — titles and URLs below are drawn from her confirmed author archive.",
-      "articles": [
-        {
-          "title": "6 Jewelry Trends to Watch for at JCK Las Vegas",
-          "url": "https://jckinsider.com/jck-events/6-jewelry-trends-to-watch-for-at-jck-las-vegas/",
-          "date": null,
-          "excerpt": null
-        },
-        {
-          "title": "Life of LUXURY: A Preview of LUXURY at JCK",
-          "url": "https://jckinsider.com/jck-events/life-of-luxury/",
-          "date": null,
-          "excerpt": null
-        },
-        {
-          "title": "New and Noteworthy: JCK Las Vegas 2018",
-          "url": "https://jckinsider.com/jck-insider/new-noteworthy-jck-lv-2018/",
-          "date": null,
-          "excerpt": null
-        },
-        {
-          "title": "International Retail Delegation: Helena Cattaneo, Jóia & Cia, Brazil",
-          "url": "https://jckinsider.com/jck-insider/helena-cattaneo-joia-cia/",
-          "date": null,
-          "excerpt": null
-        },
-        {
-          "title": "JCK Talks: Ben Smithee, CEO, The Smithee Group",
-          "url": "https://jckinsider.com/jck-las-vegas/jck-talks-ben-smithee/",
-          "date": null,
-          "excerpt": null
-        },
-        {
-          "title": "Know the Stone: Moonstone and Opal",
-          "url": "https://jckinsider.com/trend-files/know-the-stone-moonstone-opal/",
-          "date": null,
-          "excerpt": null
         }
       ]
     }

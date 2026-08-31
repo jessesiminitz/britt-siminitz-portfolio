@@ -44,11 +44,6 @@ function renderBio(bio, archive) {
   contactRow.innerHTML = bio.links.map(l =>
     `<a href="${l.url}" target="_blank" rel="noopener">${escapeHtml(l.label)}</a>`
   ).join('');
-
-  const credEl = document.getElementById('bio-credentials');
-  if (bio.credentials && bio.credentials.length) {
-    credEl.textContent = 'Also: ' + bio.credentials.join(' · ');
-  }
 }
 
 function formatDate(iso) {
@@ -84,7 +79,6 @@ function renderPublications(outlets) {
           <span class="outlet-count">${outlet.articles.length} piece${outlet.articles.length === 1 ? '' : 's'} shown</span>
         </div>
         <p class="outlet-desc">${escapeHtml(outlet.description)}</p>
-        ${outlet.note ? `<p class="outlet-note">${escapeHtml(outlet.note)}</p>` : ''}
         <div class="card-grid">${cards}</div>
       </div>
     `;

@@ -321,15 +321,6 @@ a:hover { text-decoration-color: var(--emerald); }
 
 .archive-more:hover { background: var(--emerald); color: #fff; }
 
-.hero-credentials {
-  font-size: 0.84rem;
-  font-style: italic;
-  color: var(--ink-soft);
-  margin: 16px 0 0;
-  max-width: 54ch;
-}
-
-.hero-credentials:empty { display: none; }
 
 /* Publications */
 .publications { padding: 56px 0 64px; }
@@ -398,14 +389,6 @@ a:hover { text-decoration-color: var(--emerald); }
   font-size: 0.94rem;
   max-width: 62ch;
   margin: 6px 0 4px;
-}
-
-.outlet-note {
-  font-size: 0.82rem;
-  color: var(--ink-soft);
-  font-style: italic;
-  max-width: 62ch;
-  margin: 6px 0 18px;
 }
 
 .card-grid {
