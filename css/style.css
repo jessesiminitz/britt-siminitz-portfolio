@@ -32,30 +32,31 @@ body {
   padding: 0 24px;
 }
 
-/* Decorative side trim: a tennis-bracelet motif — faceted gems strung on a
-   hairline — running down both margins. Purely ornamental (aria-hidden),
-   and only shown once the viewport is wide enough to clear the content. */
+/* Decorative side trim: a column of loose jewelry — solitaire ring, drop
+   pendant, dangling earring, emerald-cut stone, round brilliant — repeating
+   down both margins. Purely ornamental (aria-hidden), and only shown once
+   the viewport is wide enough to clear the content. */
 .page-trim {
   display: none;
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 44px;
+  width: 56px;
   z-index: 30;
   pointer-events: none;
   background-repeat: repeat-y;
   background-position: center top;
-  opacity: 0.5;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='96' viewBox='0 0 44 96'%3E%3Cg stroke='%23a9812f' fill='none' stroke-width='1' stroke-linejoin='round'%3E%3Cpath d='M22 0 V30 M22 66 V96'/%3E%3Cpath d='M22 30 L34 48 L22 66 L10 48 Z'/%3E%3Cpath d='M10 48 H34 M22 30 V66'/%3E%3Cpath d='M14 42 H30 M14 54 H30'/%3E%3C/g%3E%3Ccircle cx='22' cy='8' r='2' fill='%23a9812f'/%3E%3Ccircle cx='22' cy='88' r='2' fill='%23a9812f'/%3E%3C/svg%3E");
+  opacity: 0.55;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='480' viewBox='0 0 56 480'%3E%3Cg fill='none' stroke='%23a9812f' stroke-width='1.1' stroke-linejoin='round' stroke-linecap='round'%3E%3Cg transform='translate(0,48)'%3E%3Ccircle cx='28' cy='12' r='15'/%3E%3Cpath d='M28 -26 L35 -16 L28 -7 L21 -16 Z'/%3E%3Cpath d='M21 -16 H35'/%3E%3Cpath d='M24 -7 L26 -3 M32 -7 L30 -3'/%3E%3C/g%3E%3Cg transform='translate(0,144)'%3E%3Cpath d='M28 -30 V-16'/%3E%3Ccircle cx='28' cy='-12' r='4'/%3E%3Cpath d='M28 -6 C20 6 17 15 17 20 a11 11 0 0 0 22 0 c0 -5 -3 -14 -11 -26 Z'/%3E%3Cpath d='M22 16 H34'/%3E%3C/g%3E%3Cg transform='translate(0,240)'%3E%3Cpath d='M31 -12 V-26 A6 6 0 0 0 19 -26 c0 4 2 5 4 7'/%3E%3Cpath d='M31 -12 C38 -3 38 9 31 18 C24 9 24 -3 31 -12 Z'/%3E%3Cpath d='M24 3 H38'/%3E%3C/g%3E%3Cg transform='translate(0,336)'%3E%3Cpath d='M15 -13 L23 -21 L33 -21 L41 -13 L41 7 L33 15 L23 15 L15 7 Z'/%3E%3Cpath d='M20 -11 L24 -16 L32 -16 L36 -11 L36 5 L32 10 L24 10 L20 5 Z'/%3E%3C/g%3E%3Cg transform='translate(0,432)'%3E%3Ccircle cx='28' cy='0' r='15'/%3E%3Ccircle cx='28' cy='0' r='7'/%3E%3Cpath d='M28 -15 V-7 M28 7 V15 M13 0 H21 M35 0 H43 M17.4 -10.6 L23 -5 M38.6 -10.6 L33 -5 M17.4 10.6 L23 5 M38.6 10.6 L33 5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 90px, #000 calc(100% - 90px), transparent 100%);
           mask-image: linear-gradient(to bottom, transparent 0, #000 90px, #000 calc(100% - 90px), transparent 100%);
 }
 
-.page-trim-left { left: 26px; }
-.page-trim-right { right: 26px; }
+.page-trim-left { left: 20px; }
+.page-trim-right { right: 20px; }
 
-/* 980px content + 44px trim + breathing room on each side. */
-@media (min-width: 1180px) {
+/* 980px content + 56px trim each side + breathing room. */
+@media (min-width: 1240px) {
   .page-trim { display: block; }
 }
 
